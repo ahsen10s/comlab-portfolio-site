@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Nabla&family=Titillium+Web:wght@600&display=swap');
+
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+}
+/* placement of text and button */
+div{
+  position: absolute;
+  text-align: center;
+  margin-left: 41%;
+  margin-top: 8.5%;
+}
+/* text customization */
+h2{
+  font-size: 65px;
+  font-family: 'Nabla', cursive;
+}
+/* button customization=*/
+button{
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 20px;
+  letter-spacing: 3px;
+  color: black;
+  border: 5px solid #fb0404;
+  border-radius: 15px;
+  background-color: #fb0404;
+  
+}
+/* glow button that is a link to portfolio page */
+button:hover{
+  transition: 0.7s;
+  box-shadow: 0 5px 20px #fb0404 inset, 0 5px 20px 0 #fb0404,
+              0 5px 20px #fb0404 inset, 0 5px 20px 0 #fb0404;
+
+}
